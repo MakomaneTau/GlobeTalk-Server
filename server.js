@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { db } from './lib/firebase.js'; // your Firebase setup
+import { db } from './lib/firebase.js';
 
 const app = express();
 app.use(cors()); // allow cross-origin requests
